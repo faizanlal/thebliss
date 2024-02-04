@@ -430,7 +430,7 @@ p {
 .custom-contact-form {
   text-align: center;
   padding: 30px 0;
-  background: #000000;
+  background: green;
 }
 
 .custom-container {
@@ -1243,3 +1243,4 @@ p {
 
   /* Adjust other styles as needed for smaller screens */
 }
+
