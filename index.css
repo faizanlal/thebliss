@@ -114,7 +114,7 @@ span.num {
 }
 
 span.text {
-  color: #e0e0e0;
+  color: #ffffff;
   font-size: 1em;
   text-align: center;
   padding: 0.7em 0;
@@ -164,8 +164,8 @@ span.text {
 .welcome-message {
   text-align: center;
   padding: 20px;
-  background-color: #000000;
-  color: #000000;
+  background-color: #ffffff;
+  color: #ffffff;
 }
 
 .welcome-section {
@@ -184,173 +184,6 @@ span.text {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #f8f9fa;
-}
-
-.services-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 70vh;
-  padding: 1rem; /* Add padding for better spacing on small screens */
-}
-
-.section-heading {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.column {
-  width: calc(100% - 2rem); /* Full width for small screens */
-  margin: 1rem 0; /* Adjust margin for better spacing */
-}
-
-.event-card {
-  background-color: #ffffff;
-  border: 1px solid #dee2e6;
-  border-radius: 15px;
-  padding: 1.5rem;
-  text-align: center;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.event-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.icon-wrapper {
-  color: #2c7bfe;
-  border-radius: 50%;
-  padding: 1rem;
-  font-size: 2rem; /* Reduced icon size */
-  margin-bottom: 1.5rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #1f194c;
-  margin-bottom: 1rem;
-}
-
-p {
-  color: #575a7b;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-/* Media Query for smaller screens */
-@media screen and (min-width: 576px) {
-  .column {
-    width: calc(50% - 2rem); /* Two columns for screens wider than 576px */
-  }
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f9f6f2;
-  font-family: "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.your-custom-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.col {
-  flex: 0 0 calc(33.33% - 20px);
-  margin: 10px;
-}
-
-.card {
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card-img-top {
-  border-radius: 15px 15px 0 0;
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-.card-body {
-  padding: 10px;
-}
-
-.card-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #1f194c;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.card-text {
-  color: #575a7b;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.mb-5 {
-  margin-bottom: 20px;
-}
-
-.d-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 8px 15px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.btn-primary:hover {
-  background-color: #0056b3;
 }
 
 /* Media Query for small-sized screens */
@@ -388,7 +221,7 @@ body {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 .photo-gallery {
@@ -592,144 +425,821 @@ p {
     flex: 0 0 30%;
     max-width: 30%;
   }
-}
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+} /* Add this CSS to your existing stylesheet or in a style tag in your HTML */
 
 .custom-contact-form {
-  position: relative;
-  min-height: 100vh;
-  z-index: 0;
-
-  padding: 70px;
-  justify-content: center;
-  display: grid;
-  grid-template-rows: 1fr auto 1fr;
-  align-items: center;
+  text-align: center;
+  padding: 30px 0;
+  background: #000000;
 }
 
 .custom-container {
-  max-width: 1800px;
-  margin-top: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .custom-contact-form h1 {
-  text-align: center;
   font-size: 2.5rem;
   font-weight: 400;
-  color: #000000;
-  font-family: "Poppins";
+  color: #333;
 }
 
-.custom-contact-form h2 {
-  line-height: 40px;
-  margin-bottom: 5px;
-  font-size: 30px;
-  font-weight: 500;
-  color: #69275c;
-  text-align: center;
-}
-
-.custom-contact-form .custom-main {
-  position: relative;
+.custom-main {
   display: flex;
-  margin: 30px 0;
+  margin-top: 30px;
+  align-items: stretch;
 }
 
 .custom-content {
-  flex-basis: 50%;
-  padding: 3em 3em;
+  flex-basis: 60%;
+  padding: 30px;
   background: #fff;
-  box-shadow: 2px 9px 49px -17px rgba(156, 39, 148, 0.1);
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.custom-content label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 16px;
+}
+
+.custom-content input,
+.custom-content textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.custom-content textarea {
+  resize: vertical;
+}
+
+.custom-content button {
+  background: #69275c;
+  color: #ffffff;
+  padding: 14px 20px;
+  border: 1px solid #69275c;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.custom-content button:hover {
+  background: #522252;
 }
 
 .custom-form-img {
   flex-basis: 40%;
-  background: #ffffff;
   background-size: cover;
   padding: 40px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   align-items: center;
-  display: grid;
+  display: flex;
 }
 
 .custom-form-img img {
   max-width: 100%;
+  border-radius: 8px;
 }
 
-.custom-btn,
-button,
-input {
-  border-radius: 35px;
+/* Tablet Portrait */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .navbar-nav .nav-link {
+    font-size: 14px; /* Adjust font size for tablet portrait */
+  }
+
+  .btn-outline-custom,
+  .btn-outline-custom:hover {
+    padding: 6px 12px; /* Adjust button padding for tablet portrait */
+    font-size: 12px; /* Adjust font size for tablet portrait */
+  }
+
+  .carousel-inner img {
+    max-height: 400px; /* Adjust max-height for tablet portrait */
+  }
 }
 
-.custom-btn:hover,
-button:hover {
-  color: #97359c;
-  transition: 0.5s ease;
+/* Mobile Landscape and Portrait */
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 10px; /* Adjust navbar padding for small screens */
+  }
+
+  .logo {
+    margin-right: 5px; /* Adjust logo margin for small screens */
+  }
+
+  .navbar-brand {
+    font-size: 18px; /* Adjust font size for small screens */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px; /* Adjust font size for small screens */
+  }
+
+  .btn-outline-custom,
+  .btn-outline-custom:hover {
+    padding: 6px 12px; /* Adjust button padding for small screens */
+    font-size: 12px; /* Adjust font size for small screens */
+  }
+
+  .wrapper {
+    width: 100%; /* Adjust wrapper width for small screens */
+  }
+
+  .container {
+    width: calc(100% - 20px); /* Adjust container width for small screens */
+  }
+
+  .carousel-inner img {
+    max-height: 300px; /* Adjust max-height for small screens */
+  }
+
+  .custom-container {
+    padding: 20px; /* Adjust container padding for small screens */
+  }
+
+  .event-item,
+  a.event-view-all {
+    width: 100%; /* Adjust event item and view all width for small screens */
+  }
+
+  .service-column {
+    width: 100%; /* Adjust service column width for small screens */
+  }
+
+  .photo {
+    width: calc(50% - 10px); /* Adjust photo width for small screens */
+    margin: 5px; /* Adjust photo margin for small screens */
+  }
+
+  .service-card {
+    padding: 1em; /* Adjust service card padding for small screens */
+  }
 }
 
-.custom-contact-form form {
-  margin: 30px 0;
+/* Add this CSS to your existing stylesheet or in a style tag in your HTML */
+/* Styles for Photo Gallery */
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px; /* Adjust the gap between photos */
 }
 
-.custom-contact-form input,
-textarea {
-  outline: none;
+/* Styles for Photo Container */
+.photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(
+    22.33% - 15px
+  ); /* Adjust the width based on the number of photos in a row and gap */
   margin-bottom: 15px;
-  font-stretch: 16px;
-  color: #999;
-  padding: 14px 20px;
+}
+
+/* Styles for Photo Image */
+.photo img {
   width: 100%;
-  display: inline-block;
-  box-sizing: border-box;
-  border: none;
-  background: #fcfcfc;
-  transition: 0.3s ease;
+  height: auto;
+  display: block;
+  border-radius: 30px;
+  transition: transform 0.3s ease-in-out;
 }
 
-.custom-contact-form input:focus {
-  background: transparent;
-  border: 1px solid #69275c;
+/* Hover effect for Photo */
+.photo:hover img {
+  transform: scale(1.1);
 }
 
-.custom-contact-form button {
-  font-size: 18px;
+/* Styles for Photo Caption */
+.photo::before {
+  content: attr(alt);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #fff;
-  width: 100%;
-  background: #69275c;
-  font-weight: 600;
-  transition: 0.3s ease;
-  padding: 14px 15px;
-  border: 1px solid #69275c;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
-@media (max-width: 736px) {
-  .custom-contact-form .custom-main {
+/* Hover effect for Photo Caption */
+.photo:hover::before {
+  opacity: 1;
+}
+
+/* Optional: Styles for Photo Caption Background */
+.photo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Hover effect for Photo Caption Background */
+.photo:hover::after {
+  opacity: 1;
+}
+
+/* Optional: Styles for Photo Caption Text */
+.photo-caption {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .photo {
+    width: calc(100% - 15px); /* Adjust the width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .photo {
+    width: 100%; /* Full width for screens less than 576px */
+  }
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 576px) {
+  .photo {
+    width: calc(100% - 20px);
+  }
+}
+
+/* Add this CSS to your existing stylesheet or in a style tag in your HTML */
+
+/* Media Query for small-sized screens */
+@media screen and (max-width: 576px) {
+  .service-row {
+    flex-direction: column; /* Stack columns in a vertical layout */
+  }
+
+  .service-column {
+    width: 100%; /* Full width for small screens */
+    margin: 10px 0; /* Adjust margin for better spacing */
+  }
+
+  .service-icon-wrapper {
+    margin: 0 auto 0.5em; /* Center icons in the column */
+  }
+
+  h3 {
+    text-align: center; /* Center the title text */
+  }
+
+  p {
+    text-align: center; /* Center the description text */
+  }
+}
+
+/* Add this CSS to your existing stylesheet or in a style tag in your HTML */
+
+/* Service Section Styles */
+.service-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-column {
+  flex: 1;
+  max-width: 33.33%;
+  padding: 1em;
+}
+
+.service-card {
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333333;
+  margin: 1em 0;
+}
+
+p {
+  color: #666666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.service-icon-wrapper {
+  background-color: #2c7bfe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  margin: 0 auto 1em;
+}
+
+.service-icon-wrapper i {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 576px) {
+  .service-row {
     flex-direction: column;
   }
-  .custom-contact-form form {
-    margin-top: 30px;
-    margin-bottom: 10px;
+
+  .service-column {
+    width: 100%;
+    margin: 10px 0;
   }
+
+  .service-icon-wrapper {
+    margin: 0 auto 0.5em;
+  }
+
+  h3,
+  p {
+    text-align: center;
+  }
+}
+
+/* Welcome Message Section Styles */
+.welcome-message {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.welcome-section {
+  position: relative;
+}
+
+.welcome-image {
+  width: 90%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Event Management Container Styles */
+.event-management-container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.row-cols-md-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f194c;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #575a7b;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.mb-5 {
+  margin-bottom: 20px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #ffff;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Add this CSS to your existing stylesheet or in a style tag in your HTML */
+/* Add this CSS to your existing stylesheet or in a style tag in your HTML */
+
+/* Adjust padding and margin for better spacing */
+.event-management-container {
+  padding: 45px;
+}
+
+/* Center the cards on smaller screens */
+.row-cols-md-3 {
+  justify-content: center;
+}
+
+/* Style for each card */
+.card {
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  margin-bottom: 40px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 40px; /* Adjust the padding as needed */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f194c;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #575a7b;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 876px) {
+  .col {
+    width: 0 0 calc(100% - 50px);
+  }
+
+  .card-img-top {
+    height: 600px; /* Adjust the height as needed */
+  }
+
+  .card-body {
+    padding: 20px; /* Adjust the padding as needed */
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .btn-primary {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.event-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.event-card {
+  width: calc(33.33% - 20px); /* Set initial width for larger screens */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.event-card img {
+  width: 100%;
+  height: 250px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 15px;
+}
+
+.event-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.event-info p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.read-more {
+  display: block;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query for smaller screens (phones) */
+@media screen and (max-width: 576px) {
+  .event-card {
+    width: 100%; /* Set width to 100% for smaller screens */
+  }
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.event-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.event-card {
+  width: 450px;
+  height: 600px; /* Set a fixed height for consistency */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+}
+
+.event-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.event-info {
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.read-more:hover {
+  background-color: #2980b9;
+}
+
+/* Styles for Welcome Message */
+.welcome-message {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.welcome-section {
+  position: relative;
+}
+
+.welcome-image {
+  width: 100%;
+  height: auto;
+  max-width: 800px; /* Set a maximum width for larger screens */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Media Query for Phones (up to 600px width) */
+@media only screen and (max-width: 600px) {
+  .welcome-message {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .welcome-image {
+    max-width: 100%; /* Allow the image to take full width */
+  }
+}
+
+/* Common styles for row and card */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the columns */
+}
+
+.card {
+  flex: 0 0 calc(30% - 20px);
+  margin: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s; /* Add a smooth transition effect on hover */
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .card {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+/* Media Query for even smaller screens */
+@media screen and (max-width: 576px) {
+  .card {
+    flex: 0 0 calc(100% - 20px);
+  }
+}
+
+/* Additional Media Query for smaller screens to display 3 columns in a row */
+@media screen and (max-width: 480px) {
+  .card {
+    flex: 0 0 calc(33.33% - 20px);
+  }
+}
+
+/* Style for card content */
+.icon-wrapper {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #1f194c; /* Adjust text color */
+}
+
+.card p {
+  color: #575a7b;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 15px; /* Adjust margin */
+}
+
+/* Hover effect on cards */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Style for read more button */
+.card button {
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Adjustments for phone view */
+@media screen and (max-width: 576px) {
+  .card {
+    flex: 0 0 calc(100% - 20px);
+  }
+
+  .card button {
+    width: 100%; /* Button takes full width */
+  }
+
+  /* Additional styles for better spacing in phone view */
+  .card {
+    margin: 10px 0;
+  }
+}
+.custom-contact-form {
+  border: px solid #ccc; /* Choose the color you prefer for the border */
+  padding: 30px; /* Add some padding to the content */
+}
+
+/* Default styles for larger screens */
+.custom-contact-form {
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .custom-contact-form {
+    padding: 30px; /* Adjust the padding for smaller screens */
+  }
+
+  .custom-main {
+    flex-direction: column-reverse; /* Reverse the order of content for smaller screens */
+  }
+
   .custom-form-img {
-    border-radius: 0;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    order: 2;
+    margin-top: 10px; /* Add some margin to the image for spacing */
   }
-  .custom-content {
-    order: 1;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-  }
+
+  /* Adjust other styles as needed for smaller screens */
 }
