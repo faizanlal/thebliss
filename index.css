@@ -204,7 +204,7 @@ span.text {
   width: 350px;
   margin: 25px;
   padding: 20px;
-  background-color: green;
+  background-color: skyblue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -485,7 +485,6 @@ body {
   padding: 0px 0;
 }
 
-/* Container for content and image */
 .custom-container {
   max-width: 1700px;
   margin: 0 auto;
@@ -494,14 +493,12 @@ body {
   align-items: center;
 }
 
-/* Main content and image layout */
 .custom-main {
   display: flex;
   flex-wrap: wrap-reverse;
   align-items: center;
 }
 
-/* Styling for the contact form section */
 .custom-content {
   flex: 1;
   padding: 20px;
