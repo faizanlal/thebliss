@@ -266,17 +266,10 @@ body {
   left: 0; /* Align to the left of the container */
 }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: #f8f9fa;
-}
-
 .container {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(205, 15, 15, 0.1);
   padding: 20px;
@@ -460,7 +453,7 @@ body {
 /* Rest of your CSS styles for the testimonial section */
 
 .custom-feedback-form {
-  background-color: #f5f5f5;
+  background-color: white;
   padding: 50px 0;
 }
 
@@ -524,4 +517,49 @@ body {
 
 .custom-form-img img {
   max-width: 100%;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.book-now-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: skyblue;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-btn:hover {
+  background-color: #128c7e;
+}
+
+.book-now-btn img {
+  width: 40px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.welcome-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh; /* Adjust the height as needed */
+}
+
+.welcome-section {
+  text-align: center; /* Optionally center the content horizontally */
+}
+
+.welcome-image {
+  max-width: 100%; /* Ensure the image does not exceed its container width */
+}
+
+body {
+  background-color: white;
 }
