@@ -48,7 +48,8 @@
     <link href="index.css " rel="stylesheet" />
   </head>
   <body>
-    <!-- Example Code -->
+
+<div id="preloader"></div>
 
     <nav class="navbar navbar-expand-lg bg-custom">
       <div class="container-fluid p-0 px-5">
@@ -379,7 +380,7 @@
                 venue decor to personalized ceremonies, The Bliss brings your
                 dream wedding to life.
               </p>
-              <a href="#" class="btn btn-success read-more-btn">Read More</a>
+              <a href="wedding.html" class="btn btn-success read-more-btn">Read More</a>
             </div>
           </div>
         </div>
@@ -711,6 +712,14 @@
 
 
   
+
+
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load",function(){
+      loader.style.display = "none"
+    })
+  </script>
   </body>
 </html>
 
