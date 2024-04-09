@@ -1,0 +1,446 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #222222;
+  background-color: #000000;
+  background-image: url("loblur.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+body,
+input,
+button {
+  font-family: "Muli", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", Helvetica, sans-serif;
+  outline: none;
+}
+
+.main-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  background-color: white;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  color: #000000;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0bb56e;
+}
+
+.nav-but {
+  padding: 2%;
+  margin-left: 10px;
+}
+
+.btn-outline-custom {
+  color: #000000;
+  border-color: green;
+}
+
+.btn-outline-custom:hover {
+  color: #ffffff;
+  background-color: green;
+}
+
+footer {
+  background: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+
+.bottom-bar p {
+  color: #000000;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
+
+.carousel-inner img {
+  max-height: fit-content; /* Adjust the value as needed */
+  width: auto;
+  margin: auto;
+}
+
+/* Wrapper Styles */
+.wrapper {
+  position: relative;
+  width: 80vw;
+  margin: 0 auto; /* Center the wrapper horizontally */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+/* Custom Carousel Styles */
+#carouselExample {
+  margin-top: 5px;
+}
+
+.carousel-inner img {
+  max-height: 600px;
+  width: auto;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-indicators li {
+  background-color: #fff;
+  border: 1px solid #18f98f;
+}
+
+.carousel-indicators .active {
+  background-color: #18f98f;
+  border-color: #18f98f;
+}
+
+@media (max-width: 768px) {
+  .testimonial-section__content {
+    padding: 0 1rem;
+  }
+
+  .testimonial-section__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+.testimonial-section {
+  background-image: url("image/feedback.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px; /* Adjust padding as needed */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+}
+
+/* Rest of your CSS styles for the testimonial section */
+
+.custom-feedback-form {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.custom-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-main {
+  display: flex;
+  align-items: center;
+}
+
+.custom-content {
+  flex: 1;
+}
+
+.custom-content h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.custom-content form {
+  max-width: 900px;
+  margin: auto;
+}
+
+.custom-content input,
+.custom-content textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.custom-content button {
+  display: block;
+  width: 40%;
+  padding: 15px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.custom-content button:hover {
+  background-color: #0056b3;
+}
+
+.custom-form-img {
+  flex: 1;
+}
+
+.custom-form-img img {
+  max-width: 100%;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.book-now-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: skyblue;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-btn:hover {
+  background-color: #128c7e;
+}
+
+.book-now-btn img {
+  width: 40px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.welcome-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh; /* Adjust the height as needed */
+}
+
+.welcome-section {
+  text-align: center; /* Optionally center the content horizontally */
+}
+
+.welcome-image {
+  max-width: 100%; /* Ensure the image does not exceed its container width */
+}
+
+body {
+  background-color: white;
+}
+
+#preloader {
+  background: white url(image/loader.gif) no-repeat center center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+/* Custom CSS for logo and centering */
+.logo {
+  margin: auto;
+  display: block;
+}
+.center-content {
+  text-align: center;
+}
+
+/* Centering the container */
+/* Centering the container */
+.wedding-details {
+  position: absolute;
+  top: 200%; /* Position it 50% from the top */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  margin-top: 100px; /* Adjust the margin-top to move it down */
+}
+
+/* Style for the image */
+.wedding-details .image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wedding-details .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wedding-details .name {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.wedding-details .description p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.wedding-details .description ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.wedding-details .description ul li {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+}
+
+.wedding-details .price {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.wedding-details .buttons {
+  text-align: center;
+}
+
+.wedding-details .book-now-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.wedding-details .book-now-btn:hover {
+  background-color: #0056b3;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  width: 80%;
+  background-color: #f7f7f7; /* Background color for the content wrapper */
+  padding: 20px; /* Padding for the content wrapper */
+  border-radius: 10px; /* Border radius for the content wrapper */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the content wrapper */
+}
+
+.left-section {
+  flex: 1;
+  text-align: center;
+}
+
+.left-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.right-section {
+  flex: 2;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.description {
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.description p {
+  margin-bottom: 10px;
+}
+
+.description ul {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 400px;
+}
+
+.description ul li {
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #25d366;
+  margin-top: 20px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #25d366;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+  border: 2px solid #25d366; /* Add border */
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+  border-color: #128c7e; /* Change border color on hover */
+}
